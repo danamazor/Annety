@@ -159,6 +159,6 @@ C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\bin\Microsoft.Owin.Security.OAuth
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\obj\Debug\Annety.csprojResolveAssemblyReference.cache
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\obj\Debug\Annety.dll
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\obj\Debug\Annety.pdb
+C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\obj\Debug\Annety.csprojResolveAssemblyReference.cache
