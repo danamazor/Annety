@@ -11,29 +11,42 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="row">
+            <div class="col-lg-6"><h1 style="text-align:center; color:blueviolet" >Annety</h1></div>
+            <div class="col-lg-6">@Html.Partial("_LoginPartial")</div>
+            </div>
+            @*<div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
+            </div>*@
+            @*<div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
+                <h1>Annety</h1>
                 @Html.Partial("_LoginPartial")
-            </div>
+            </div>*@
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+         <div style="text-align-last:center">New Arrival</div>
+            <div class="navbar-collapse collapse" >
+            <ul class="nav navbar-nav" 
+                <li>@Html.ActionLink("About Us", "About", "Home")</li>
+                <li>@Html.ActionLink("Outlet", "Index", "Home")</li>
+                <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+            </ul>
+        </div>
+            @*<p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>*@
         </footer>
     </div>
 
