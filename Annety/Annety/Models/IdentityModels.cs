@@ -29,5 +29,11 @@ namespace Annety.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Annety.Models.Stocks> Stocks { get; set; }
+
+        public System.Data.Entity.DbSet<Annety.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<Annety.Models.ProductSize> ProductSizes { get; set; }
     }
 }
