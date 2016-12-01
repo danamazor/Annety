@@ -161,3 +161,4 @@ C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\bin\Microsoft.Owin.Security.Twitt
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\obj\Debug\Annety.dll
 C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\obj\Debug\Annety.pdb
+C:\Users\efrat\Desktop\AnnetRepo\Annety\Annety\obj\Debug\Annety.csprojResolveAssemblyReference.cache

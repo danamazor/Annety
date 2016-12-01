@@ -35,5 +35,7 @@ namespace Annety.Models
         public System.Data.Entity.DbSet<Annety.Models.Product> Products { get; set; }
 
         public System.Data.Entity.DbSet<Annety.Models.ProductSize> ProductSizes { get; set; }
+
+        public System.Data.Entity.DbSet<Annety.Models.UsersOrders> UsersOrders { get; set; }
     }
 }

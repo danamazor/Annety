@@ -7,11 +7,16 @@ using System.Web.Mvc;
 namespace Annety.Controllers
 {
     public class HomeController : Controller
-    {
+    {   
         public ActionResult Index()
         {
             return View();
         }
+        public ActionResult Manager()
+        {
+            return View();
+        }
+
 
         public ActionResult About()
         {
